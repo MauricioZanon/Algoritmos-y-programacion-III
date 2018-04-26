@@ -10,6 +10,7 @@ void swap(void* a, void* b, unsigned const sizeDelValor){
 	memcpy(aux, a, sizeDelValor);
 	memcpy(a, b, sizeDelValor);
 	memcpy(b, aux, sizeDelValor);
+	free(aux);
 }
 
 
