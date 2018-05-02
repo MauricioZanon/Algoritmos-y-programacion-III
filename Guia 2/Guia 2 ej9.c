@@ -19,9 +19,7 @@ int main(){
     printf("%d\n", indiceDeEntero);
 
     float array2[] = {0.0,1.1,2.2,3.3,4.4,5.5,6.6,7.7,8.8};
-    int floatBuscado = 3.3;
+    float floatBuscado = 3.3;
     int indiceDeFloat = buscarIndice(array2, sizeof(array2)/sizeof(float), sizeof(float), &floatBuscado);
     printf("%d\n", indiceDeFloat);
-
-
 }
